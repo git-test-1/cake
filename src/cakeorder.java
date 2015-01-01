@@ -5,10 +5,11 @@ public class cakeorder {
 	private int cakeCode;
 	private String cakeName;
 	private String notes;
+	private int tasteScore;
 	
 	/**
 	 * 
-	 * New Master and cake_release2 comments
+	 * New Master and cake_release2 and cake_fix comments
 	 */
 	public void setQuantity(Integer i) {
 	
@@ -72,6 +73,12 @@ public class cakeorder {
 		
 	}
 	
+	public void setTasteScore(Integer i) {
+	
+		tasteScore=i;
+		
+	}
+	
 	/**
 	 * @param args
 	 */
@@ -79,5 +86,10 @@ public class cakeorder {
 	
 		return notes;
 		
+	}		
+		
+	public Integer getTasteScore() {
+	
+		return tasteScore;
 	}	
 }
