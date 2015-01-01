@@ -7,7 +7,7 @@ public class cakeorder {
 	
 	/**
 	 * 
-	 * New comments cake_release2
+	 * New Master and cake_release2 comments
 	 */
 	public void setQuantity(Integer i) {
 	
@@ -20,7 +20,7 @@ public class cakeorder {
 	 */
 	public Integer getQuantity() {
 	
-		return quantity;
+		return quantity*10;
 		
 	}		
 	/**
