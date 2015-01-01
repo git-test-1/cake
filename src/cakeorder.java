@@ -2,6 +2,7 @@
 public class cakeorder {
 	
 	private int quantity;
+	private int cakeCode;
 	
 	/**
 	 * 
@@ -19,6 +20,24 @@ public class cakeorder {
 	public Integer getQuantity() {
 	
 		return quantity;
+		
+	}		
+	/**
+	 * 
+	 * @param args
+	 */
+	public void setCakeCode(Integer i) {
+	
+		cakeCode=i;
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public Integer getCakeCode() {
+	
+		return cakeCode;
 		
 	}	
 }
