@@ -7,7 +7,7 @@ public class cakeorder {
 	
 	/**
 	 * 
-	 * New comments cake_fix
+	 * New and Master comments cake_fix
 	 */
 	public void setQuantity(Integer i) {
 	
