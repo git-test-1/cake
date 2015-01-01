@@ -3,6 +3,7 @@ public class cakeorder {
 	
 	private int quantity;
 	private int cakeCode;
+	private int tasteScore;
 	
 	/**
 	 * 
@@ -38,6 +39,24 @@ public class cakeorder {
 	public Integer getCakeCode() {
 	
 		return cakeCode;
+		
+	}	
+	/**
+	 * 
+	 * @param args
+	 */
+	public void setTasteScore(Integer i) {
+	
+		tasteScore=i;
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public Integer getTasteScore() {
+	
+		return tasteScore;
 		
 	}	
 }
