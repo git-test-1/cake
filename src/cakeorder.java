@@ -4,6 +4,7 @@ public class cakeorder {
 	private int quantity;
 	private int cakeCode;
 	private String cakeName;
+	private String notes;
 	
 	/**
 	 * 
@@ -58,6 +59,25 @@ public class cakeorder {
 	public String getCakeName() {
 	
 		return cakeName;
+		
+	}	
+	
+	/**
+	 * 
+	 * @param args
+	 */
+	public void setNotes(String s) {
+	
+		notes=s;
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public String getNotes() {
+	
+		return notes;
 		
 	}	
 }
