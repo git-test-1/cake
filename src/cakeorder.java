@@ -3,6 +3,7 @@ public class cakeorder {
 	
 	private int quantity;
 	private int cakeCode;
+	private String cakeName;
 	
 	/**
 	 * 
@@ -38,6 +39,25 @@ public class cakeorder {
 	public Integer getCakeCode() {
 	
 		return cakeCode;
+		
+	}	
+	
+	/**
+	 * 
+	 * @param args
+	 */
+	public void setCakeName(String s) {
+	
+		cakeName=s;
+		
+	}
+	
+	/**
+	 * @param args
+	 */
+	public String getCakeName() {
+	
+		return cakeName;
 		
 	}	
 }
