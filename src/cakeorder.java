@@ -6,7 +6,7 @@ public class cakeorder {
 	
 	/**
 	 * 
-	 * @param args
+	 * Master Comments
 	 */
 	public void setQuantity(Integer i) {
 	
