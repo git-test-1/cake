@@ -19,7 +19,7 @@ public class cakeorder {
 	 */
 	public Integer getQuantity() {
 	
-		return quantity;
+		return quantity*10;
 		
 	}		
 	/**
