@@ -7,7 +7,8 @@ public class cakeorder {
 	private String notes;
 	private int tasteScore;
 	private int raisonCount;
-	
+	private int cherryScore;
+
 	/**
 	 * 
 	 * New Master and cake_release2 and cake_fix comments
@@ -97,5 +98,10 @@ public class cakeorder {
 	public Integer getRaisonCount() {
 
 		return raisonCount;
+	}
+
+	public Integer getCherryScore() {
+
+		return cherryScore;
 	}
 }
