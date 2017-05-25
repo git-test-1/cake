@@ -6,6 +6,7 @@ public class cakeorder {
 	private String cakeName;
 	private String notes;
 	private int tasteScore;
+	private int raisonCount;
 	
 	/**
 	 * 
@@ -91,5 +92,10 @@ public class cakeorder {
 	public Integer getTasteScore() {
 	
 		return tasteScore;
-	}	
+	}
+
+	public Integer getRaisonCount() {
+
+		return raisonCount;
+	}
 }
